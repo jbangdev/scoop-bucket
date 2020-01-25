@@ -14,11 +14,11 @@
         ]
     },
     "checkver": {
-        "url": "https://github.com/maxandersen/jbang/releases",
-        "re": "jbang-[\\d.]+.zip"
+        "url": "https://github.com/maxandersen/jbang/releases/latest",
+        "re": "v([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/maxandersen/jbang/releases/download/v0.11.1/jbang-$version.zip",
+        "url": "https://github.com/maxandersen/jbang/releases/download/v$version/jbang-$version.zip",
         "extract_dir": "jbang-$version",
         "hash": {
             "url": "$url.sha256"
