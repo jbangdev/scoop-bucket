@@ -15,7 +15,7 @@
     },
     "checkver": {
         "url": "https://github.com/maxandersen/jbang/releases",
-        "re": "Currently, jbang (?:[\\d.]+ and )?([\\d.]+) (?:is|are) the best"
+        "re": "jbang-[\\d.]+.zip"
     },
     "autoupdate": {
         "url": "https://github.com/maxandersen/jbang/releases/download/v0.11.1/jbang-$version.zip",
