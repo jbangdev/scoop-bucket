@@ -1,11 +1,11 @@
 {
   "homepage": "https://jbang.dev",
   "description": "Unleash the power of Java for shell scripting. Use `jbang` to run single .java file with automatic dependency fetching and immediate compilation and execution",
-  "version": "0.47.0",
+  "version": "0.47.1",
   "license": "MIT",
-  "url": "https://github.com/jbangdev/jbang/releases/download/v0.47.0/jbang-0.47.0.zip",
-  "hash": "sha256:d29823bfabaf36a6848e9a9f5d09d9ee51e2b998d8c9a2dbfbf6cb1871df1e05",
-  "extract_dir": "jbang-0.47.0",
+  "url": "https://github.com/jbangdev/jbang/releases/download/v0.47.1/jbang-0.47.1.zip",
+  "hash": "sha256:1d45cdb398dc4ab37d655be1f3a8e6c86a0d60cd483cae9c766643b64b34f6a3",
+  "extract_dir": "jbang-0.47.1",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
