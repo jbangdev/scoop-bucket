@@ -1,11 +1,11 @@
 {
   "homepage": "https://jbang.dev",
   "description": "Unleash the power of Java. Use `jbang` to run java, jar or jsh file(s) with automatic dependency fetching and immediate compilation and execution",
-  "version": "0.71.1",
+  "version": "0.72.0",
   "license": "MIT",
-  "url": "https://github.com/jbangdev/jbang/releases/download/v0.71.1/jbang-0.71.1.zip",
-  "hash": "sha256:fefc5258d80c12ab67ba75332f529ca26ce9688c9a5e506a9519139fb14c846d",
-  "extract_dir": "jbang-0.71.1",
+  "url": "https://github.com/jbangdev/jbang/releases/download/v0.72.0/jbang-0.72.0.zip",
+  "hash": "sha256:bf1957823fbc3733d4049a31a1bd7279836e01f5c7a86c95dca2d96b4b72205a",
+  "extract_dir": "jbang-0.72.0",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
