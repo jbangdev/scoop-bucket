@@ -1,27 +1,27 @@
 {
-  "version": "0.126.3",
-  "description": "Unleash the power of Java",
-  "homepage": "https://jbang.dev",
-  "license": "MIT",
-  "url": "https://github.com/jbangdev/jbang/releases/download/v0.126.3/jbang-0.126.3.zip",
-  "hash": "sha256:c45ac143bc92f4b9d3d35742a4852db95cf8a25765a0aa4d705b236ae346c066",
-  "extract_dir": "jbang-0.126.3",
-  "env_add_path": "bin",
-  "suggest": {
-    "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
-    ]
-  },
-  "checkver": {
-    "url": "https://github.com/jbangdev/jbang/releases/latest",
-    "re": "v([\\d.]+).zip"
-  },
-  "autoupdate": {
-    "url": "https://github.com/jbangdev/jbang/releases/download/v$version/jbang-$version.zip",
-    "extract_dir": "jbang-$version",
-    "hash": {
-      "url": "$url.sha256"
+    "version": "0.127.18",
+    "description": "Unleash the power of Java",
+    "homepage": "https://jbang.dev",
+    "license": "MIT",
+    "url": "https://github.com/jbangdev/jbang/releases/download/v0.127.18/jbang-0.127.18.zip",
+    "hash": "sha256:f039086153094e5cf6f404d45aee0c35f03568c8a13675e3ab7959084725fb55",
+    "extract_dir": "jbang-0.127.18",
+    "env_add_path": "bin",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://github.com/jbangdev/jbang/releases/latest",
+        "re": "v([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jbangdev/jbang/releases/download/v$version/jbang-$version.zip",
+        "extract_dir": "jbang-$version",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
