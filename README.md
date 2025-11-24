@@ -10,8 +10,8 @@
 scoop bucket add jbangdev https://github.com/jbangdev/scoop-bucket.git
 ```
 
-3. Install JBang via `scoop install`:
+3. Install tools via `scoop install`:
 
 ```
-scoop install jbang
+scoop install <toolName>
 ```
